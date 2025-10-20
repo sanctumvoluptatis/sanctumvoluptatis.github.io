@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Sanctum Voluptatis — Verification</title>
+<meta name="color-scheme" content="dark">
+
+<style>
+  :root{
+    --void:#000;
+    --blood:#b30000;
+    --ember:#ff2b2b;
+    --candle:#ffddb0;
+    --ash:#a18d7c;
+    --maxw:1200px;
+  }
+
+  html,body{height:100%;margin:0}
+  body{
+    background: radial-gradient(1200px 900px at 50% 40%, rgba(50,0,0,.15), transparent 60%), var(--void);
+    color:var(--candle);
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    display:flex;align-items:center;justify-content:center;
+    padding:48px;text-align:center;
+  }
+
+  .card{
+    width:100%;max-width:var(--maxw);
+    text-shadow:0 0 6px rgba(255,221,176,.25),0 0 12px rgba(255,200,160,.15);
+  }
+
+  /* Sigil */
+  .sigil{
+    max-width:300px;width:40%;height:auto;margin:0 auto 28px;display:block;
+    filter:drop-shadow(0 8px 28px rgba(255,43,43,.25));
+    animation:float 9s ease-in-out infinite;
+  }
+
+  h1{
+    margin:0 0 10px;
+    color:var(--ember);
+    letter-spacing:.07em;
+    font-size:clamp(1.2rem,2.2vw + .8rem,2rem);
+    font-weight:800;text-transform:uppercase;
+    text-shadow:
+      0 0 6px rgba(255,43,43,.55),
+      0 0 18px rgba(179,0,0,.45),
+      0 0 36px rgba(179,0,0,.25);
+    animation:flicker 4.6s infinite steps(60,end);
+  }
+
+  .lead{
+    margin:0 0 24px;
+    color:var(--candle);
+    font-size:clamp(1rem,.8vw + .9rem,1.2rem);
+    display:inline-block;white-space:nowrap;
+    animation:candletext 12s infinite ease-in-out;
+    text-shadow:0 0 8px rgba(255,221,176,.4),0 0 18px rgba(255,200,150,.25);
+  }
+
+  .fp{
+    display:inline-block;
+    padding:12px 16px;
+    border-radius:8px;
+    margin:12px 0 24px;
+    color:#ffeaea;
+    font-family:ui-monospace,Menlo,Consolas,monospace;
+    letter-spacing:.08em;font-size:.98rem;
+    background:rgba(179,0,0,.10);
+    box-shadow:inset 0 0 18px rgba(179,0,0,.22),0 0 24px rgba(255,43,43,.10);
+    animation:ember 5.8s ease-in-out infinite;
+    text-shadow:0 0 6px rgba(255,200,150,.35),0 0 14px rgba(255,150,100,.15);
+  }
+
+  .btn{
+    display:inline-block;
+    background:radial-gradient(120% 180% at 50% -40%,#ff5a5a 0,#ff2b2b 34%,#b30000 72%,#7a0000 100%);
+    color:#fff;text-decoration:none;
+    padding:14px 22px;border-radius:10px;font-weight:800;
+    box-shadow:0 12px 28px rgba(179,0,0,.28),0 0 8px rgba(255,221,176,.3);
+    transition:transform .14s ease,box-shadow .14s ease,filter .14s ease;
+    text-shadow:0 0 8px rgba(255,221,176,.4);
+  }
+  .btn:hover{transform:translateY(-2px);box-shadow:0 18px 40px rgba(179,0,0,.36),0 0 12px rgba(255,221,176,.45);filter:brightness(1.05);}
+  .btn:active{transform:translateY(1px);}
+
+  .fine{
+    margin-top:26px;
+    color:var(--ash);
+    font-size:.9rem;
+    text-shadow:0 0 6px rgba(255,221,176,.25);
+  }
+
+  @keyframes float{
+    0%,100%{transform:translateY(0)}
+    50%{transform:translateY(-6px)}
+  }
+  @keyframes flicker{
+    0%,19%,21%,23%,100%{text-shadow:0 0 6px rgba(255,43,43,.55),0 0 18px rgba(179,0,0,.45),0 0 36px rgba(179,0,0,.25)}
+    20%,22%{text-shadow:0 0 2px rgba(255,43,43,.30),0 0 6px rgba(179,0,0,.25),0 0 12px rgba(179,0,0,.15)}
+  }
+  @keyframes ember{
+    0%,100%{box-shadow:inset 0 0 12px rgba(179,0,0,.20),0 0 16px rgba(255,43,43,.08)}
+    50%{box-shadow:inset 0 0 22px rgba(255,43,43,.30),0 0 28px rgba(255,43,43,.18)}
+  }
+  @keyframes candletext{
+    0%,100%{opacity:1;color:var(--candle)}
+    15%{opacity:.96;color:#ffe3b8}
+    37%{opacity:.98;color:#ffefc8}
+    42%{opacity:.95;color:#ffe5ba}
+    67%{opacity:.99;color:var(--candle)}
+    80%{opacity:.97;color:#ffd8a8}
+  }
+
+  @media(max-width:780px){.lead{white-space:normal}}
+  @media(prefers-reduced-motion:reduce){.sigil,h1,.lead,.fp{animation:none!important}}
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="sigil" src="./sigil.png" alt="Sanctum Voluptatis Sigil" />
+    <h1>Sanctum Voluptatis — Official Key</h1>
+
+    <div class="lead">
+      All authentic notices and releases from ∴S.V∴ - A Path through the Threshold of the :. O.T.L .: - are signed with the key below.
+    </div>
+
+    <div class="fp">
+      Fingerprint:&nbsp; 7D13&nbsp;851F&nbsp;4174&nbsp;A6DB&nbsp;71CF&nbsp;1876&nbsp;B49D&nbsp;04C2&nbsp;D01E&nbsp;427B
+    </div>
+
+    <div>
+      <a class="btn" href="./sanctumvoluptatis.asc" download>Download PGP Public Key (.asc)</a>
+    </div>
+
+    <div class="fine">
+      Official contact: <strong>sanctumvoluptatis@proton.me</strong><br>
+      Verify signatures with this key before trusting any release or message.
+    </div>
+  </div>
+</body>
+</html>
